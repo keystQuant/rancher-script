@@ -13,4 +13,4 @@ sudo apt-get update
 sudo apt-get install docker-ce=17.09.1~ce-0~ubuntu
 
 # 랜처 도커 컨테이너 시작
-docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
+docker run -d --restart=unless-stopped -p 8000:8080 rancher/server:stable
